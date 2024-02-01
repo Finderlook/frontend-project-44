@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-console.log('brain-even');
+import getNameGreet from '../src/cli.js';
+
+console.log('Welcome to the Brain Games!');
+
+getNameGreet();
