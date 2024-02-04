@@ -1,7 +1,4 @@
 #!/usr/bin/env node
-import getNameGreet from '../src/cli.js';
+import runBrainEven from '../src/games/even.js';
 
-console.log('Welcome to the Brain Games!');
-const name = getNameGreet();
-
-console.log(`Сохранённая переменная: ${name}`);
+runBrainEven();
