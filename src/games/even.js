@@ -19,7 +19,7 @@ const runBrainEven = () => {
     console.log(`Question: ${randomInt}`);
     const answerUser = readlineSync.question('Your answer: ').toLowerCase();
     if (corAnswer !== answerUser) {
-      return console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${corAnswer}'.\nLet's try again, ${userName}`);
+      return console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${corAnswer}'.\nLet's try again, ${userName}!`);
     }
     console.log('Correct!');
     stage += 1;
