@@ -14,8 +14,8 @@ const gcd = (num1, num2) => {
 };
 
 const logicGames = () => {
-  const randomInt1 = getRandomInt(0, 100);
-  const randomInt2 = getRandomInt(0, 100);
+  const randomInt1 = getRandomInt(0, 10);
+  const randomInt2 = getRandomInt(0, 10);
   const question = `${randomInt1} ${randomInt2}`;
   const answer = gcd(randomInt1, randomInt2);
   return [question, String(answer)];
