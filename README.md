@@ -5,9 +5,9 @@
 1. Open console and execute:
 2. Clone the repo
 
-  ```sh
-  git clone git@github.com:Finderlook/frontend-project-44.git
-  ```
+   ```sh
+   git clone git@github.com:Finderlook/frontend-project-44.git
+   ```
 3. To install project:
 
    ```sh
