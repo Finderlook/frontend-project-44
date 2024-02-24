@@ -1,8 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Finderlook/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Finderlook/frontend-project-44/actions)",
-  "main": "index.js",
+  "description": "Brain-games is a simple set of terminal mini-games",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
