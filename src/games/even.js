@@ -1,7 +1,9 @@
 import runLogic from '../index.js';
-import { getRandomInt, isEven } from '../tools.js';
+import getRandomInt from '../tools.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const isEven = (randomInt) => randomInt % 2 === 0;
 
 const logicGames = () => {
   const randomInt = getRandomInt(0, 100);

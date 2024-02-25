@@ -1,5 +1,5 @@
 import runLogic from '../index.js';
-import { getRandomInt } from '../tools.js';
+import getRandomInt from '../tools.js';
 
 const description = 'What number is missing in the progression?';
 
