@@ -7,4 +7,5 @@ const getNameGreet = () => {
   return name;
 };
 
+
 export default getNameGreet;
